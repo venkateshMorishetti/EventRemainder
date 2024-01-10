@@ -1,1 +1,1 @@
-# EventRemainder
+This App is Event Remainder.

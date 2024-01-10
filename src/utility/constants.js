@@ -1,0 +1,1 @@
+export const APP_LOGO = "https://upload.wikimedia.org/wikipedia/commons/f/f5/Antu_appointment-reminder.svg";
