@@ -6,6 +6,12 @@
 .black-text{
     color: black;
 }
+.white-text{
+    color: whitesmoke;
+}
+.gold-text{
+    color: #FFA735;
+}
 
 .background-gold{
     background-color: #FFA735;
@@ -47,4 +53,56 @@
     position: absolute;
     color: whitesmoke;
     opacity: 50%;
+}
+
+.login-logo-alignment{
+    padding: 10px 50px 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.login-tab-content{
+    width: 500px;
+    height: 450px;
+    border: 2px solid #FFA735;
+    border-radius: 10px;
+}
+.login-tab{
+    
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mobile-number-box{
+    background-color: #262626;
+    border-bottom: 2px solid #FFA735;
+    font-size: larger;
+}
+
+.login-tab-content input::placeholder {
+    color: whitesmoke;
+}
+
+.login-tab-content input:focus {
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
