@@ -1,0 +1,20 @@
+.flex-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-border-bottom{
+    border-bottom: 3px solid #FFA735;
+   
+}
+
+.center-icons{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: absolute;
+    color: whitesmoke;
+    opacity: 50%;
+}
