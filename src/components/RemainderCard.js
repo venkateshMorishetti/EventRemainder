@@ -1,4 +1,4 @@
-import '../styles/RemainderCard.css';
+import '../styles/styles.css';
 import messageicon from '../assets/message-icon.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faTrashCan } from '@fortawesome/free-solid-svg-icons'
@@ -9,12 +9,18 @@ const RemainderCard = () => {
 
     const mouseUp = () => {
         setEnableEdit(true);
-        console.log("mouse inside div", enableEdit);
     }
 
     const mouseDown = () => {
         setEnableEdit(false);
-        console.log("mouse outside div", enableEdit);
+    }
+
+    const editRemainder = () =>{
+        console.log("editRemainder");
+    }
+
+    const deleteRemainder = () =>{
+        console.log("deleteRemainder");
     }
 
     return(
@@ -25,11 +31,11 @@ const RemainderCard = () => {
             <div className="custom-border-bottom  h-4/6 flex justify-center" >
                 <img className="w-48" src={messageicon} alt="icon"></img>
                 {enableEdit && (<div className="center-icons flex">
-                    <div className="px-12">
-                    <FontAwesomeIcon icon={faEdit} size='3x'/>
+                    <div className="px-12" onClick={editRemainder}>
+                        <FontAwesomeIcon icon={faEdit} size='3x'/>
                     </div>
-                    <div className="px-12">
-                    <FontAwesomeIcon icon={faTrashCan} size='3x' />
+                    <div className="px-12" onClick={deleteRemainder}>
+                        <FontAwesomeIcon icon={faTrashCan} size='3x' />
                     </div>
                 </div>)}
             </div>

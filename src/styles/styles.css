@@ -1,0 +1,50 @@
+.custom-border{
+    border: 3px solid #FFA735;
+    color: #FFA735;
+}
+
+.black-text{
+    color: black;
+}
+
+.background-gold{
+    background-color: #FFA735;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFA735;
+}
+
+/* .custom-border{
+    border: 1px solid #FFA735;
+    color: #FFA735;
+} */
+
+.body{
+    min-height: 100vh;
+}
+
+.flex-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-border-bottom{
+    border-bottom: 3px solid #FFA735;
+   
+}
+
+.center-icons{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: absolute;
+    color: whitesmoke;
+    opacity: 50%;
+}
