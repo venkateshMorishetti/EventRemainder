@@ -3,18 +3,17 @@ import SignInPage from './SignInPage';
 import Home from './Home';
 import '../styles/styles.css'
 
-
 const Body = ()=>{
 
     const routes = createBrowserRouter(
         [
             {
                 path:'/',
-                element:<Home/>
+                element:<SignInPage/>
             },
             {
-                path:'/signin',
-                element:<SignInPage/>
+                path:'/home',
+                element:<Home/>
             }
         ]
     )
