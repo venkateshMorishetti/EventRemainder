@@ -29,7 +29,7 @@ const SignInPage = () => {
                             <div className=" cursor-pointer ">
                                 <FontAwesomeIcon icon={faSmileBeam} size='4x' className="gold-text"/>
                             </div>
-                            <div className="pl-12">
+                            <div className="pl-4">
                                 <h1 className="text-5xl font-bold gold-text">VIRTUAL REMAINDER</h1> 
                             </div>
                         </div>
@@ -43,10 +43,10 @@ const SignInPage = () => {
                                 Please enter the verifcation code that we have sent to your Mobile Number.
                             </div>
                             <div className="flex mt-4">
-                            <input type="number"className="otp-number-box gold-text w-14 h-14 " max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
-                            <input type="number"className="otp-number-box gold-text w-14 h-14 ms-4 " max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
-                            <input type="number"className="otp-number-box gold-text w-14 h-14 ms-4" max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
-                            <input type="number"className="otp-number-box gold-text w-14 h-14 ms-4" max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
+                            <input id="otp0" type="number"className="otp-number-box gold-text w-14 h-14 " max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
+                            <input id="otp1" type="number"className="otp-number-box gold-text w-14 h-14 ms-4 " max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
+                            <input id="otp2" type="number"className="otp-number-box gold-text w-14 h-14 ms-4" max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
+                            <input id="otp3" type="number"className="otp-number-box gold-text w-14 h-14 ms-4" max="9" min="0" maxlength="1" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>  
                             </div>
                             </div>
                         </> 

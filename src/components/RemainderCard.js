@@ -30,9 +30,9 @@ const RemainderCard = () => {
             </div>
             <div className="custom-border-bottom  h-4/6 flex justify-center" >
                 <img className="w-48" src={messageicon} alt="icon"></img>
-                {enableEdit && (<div className="center-icons flex">
+                {enableEdit && (<div className="center-icons flex  bg-zinc-500">
                     <div className="px-12" onClick={editRemainder}>
-                        <FontAwesomeIcon icon={faEdit} size='3x'/>
+                        <FontAwesomeIcon  icon={faEdit} size='3x'/>
                     </div>
                     <div className="px-12" onClick={deleteRemainder}>
                         <FontAwesomeIcon icon={faTrashCan} size='3x' />

@@ -43,16 +43,14 @@
 
 .custom-border-bottom{
     border-bottom: 3px solid #FFA735;
-   
 }
 
 .center-icons{
-    background-color: black;
     padding-top: 70px;
     padding-bottom: 70px;
     position: absolute;
-    color: whitesmoke;
-    opacity: 50%;
+    color: white;
+    opacity: 90%;
 }
 
 .login-logo-alignment{
@@ -115,5 +113,20 @@ input[type=number] {
 }
 
 
+
+.chart-options-box{
+    z-index: 101;
+    position: absolute;
+    right: 10px;
+    top:30px;
+    width:600px;
+    height: 500px;
+}
+
+.chart-option-close-icon{
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
 
 
