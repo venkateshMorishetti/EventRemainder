@@ -129,4 +129,8 @@ input[type=number] {
     position: absolute;
 }
 
+.min-width-580{
+    min-width: 580px;
+}
+
 
